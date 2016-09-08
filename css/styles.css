@@ -1,0 +1,114 @@
+container {
+  overflow: hidden;
+}
+
+h3 {
+  font: 22px "Helvetica Neue";
+  font-weight: bold;
+}
+
+p {
+  font: 18px "Helvetica Neue";
+}
+
+/* CSS for header */
+header {
+  background-color: #06D6A0;
+  overflow: auto;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-list {
+  list-style: none;
+  float: right;
+}
+
+.nav-item {
+  float: right;
+  padding: 0px 5px;
+}
+
+
+/* CSS for body */
+/* Section with image and title */
+.banner{
+  background-color: #26547C;
+  width: 100%;
+  display: inline-flex;;
+  overflow: hidden;
+}
+
+.img-banner > img{
+  width: 60%;
+
+}
+
+.title{
+ width: 40%;
+ text-align: center;
+ float: right;
+}
+.title h1 {
+  color: white;
+}
+/* Cats Section */
+#cats {
+  background-color: #FFD166;
+  padding: 5px 5%;
+
+}
+/* Products section */
+#products {
+  background-color: #F2F2F2;
+  padding: 5px 5%;
+}
+
+
+.image-grid {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.product-photo {
+  float: left;
+  display: list-item;
+  padding: 10px;
+  width: 200px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  border: 3px solid black;
+}
+
+/* About Section */
+#about {
+  background-color: #26547C;
+  padding: 5px 5%;
+}
+
+.section-list .fun, .values, .meow {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+#about h3 {
+  color: #EF476F;
+}
+
+#about p {
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #06D6A0;
+  width: 100%;
+  text-align: right;
+}
